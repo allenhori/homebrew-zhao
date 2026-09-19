@@ -1,7 +1,6 @@
 class Zhao < Formula
-  desc "Deterministic, offline change-review and CI gate for data transformation projects."
+  desc "Offline, deterministic breaking-change gate for dbt projects"
   homepage "https://github.com/allenhori/zhao-cli"
-  version "0.5.2"
   license "Apache-2.0"
 
   on_macos do
