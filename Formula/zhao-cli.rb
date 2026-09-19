@@ -1,4 +1,4 @@
-class Zhao < Formula
+class ZhaoCli < Formula
   desc "Offline, deterministic breaking-change gate for dbt projects"
   homepage "https://github.com/allenhori/zhao-cli"
   license "Apache-2.0"
