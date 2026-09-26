@@ -5,19 +5,19 @@ class ZhaoCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/allenhori/zhao-cli/releases/download/v0.5.5/zhao-aarch64-apple-darwin.tar.gz"
-      sha256 "06f4ce1a60027b5b99d0b23574dde6eacd36102ed57fa7e4523b0fee44d46dee"
+      url "https://github.com/allenhori/zhao-cli/releases/download/v0.5.6/zhao-aarch64-apple-darwin.tar.gz"
+      sha256 "b4a870284ce90ad326c4a8a5ffbe53305bfc53a47bb1808622659f6b5cae5174"
     end
     on_intel do
-      url "https://github.com/allenhori/zhao-cli/releases/download/v0.5.5/zhao-x86_64-apple-darwin.tar.gz"
-      sha256 "545a3e3b481e55b046dd0d78c27f497f6da1351ccfe9d50618860b2a190f1931"
+      url "https://github.com/allenhori/zhao-cli/releases/download/v0.5.6/zhao-x86_64-apple-darwin.tar.gz"
+      sha256 "fafce1796f92e6fa9d28358fda05ce5679f155df88dae78d7e7cb6b87763f16c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/allenhori/zhao-cli/releases/download/v0.5.5/zhao-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4a475ce2551630429a1b246012b9c8f186a459d6d3bcbf2e48f5b18bc6ffa22e"
+      url "https://github.com/allenhori/zhao-cli/releases/download/v0.5.6/zhao-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "34a79731b6209685644559f91a97df25e50c8b8eac9ecc8de79480e35d94e4cf"
     end
   end
 
